@@ -1,0 +1,34 @@
+{
+
+    "dashboard": {
+        "elementHref": ["/client/admin/all-tickets/OPEN", 
+                        "/client/admin/all-tickets/IN_PROGRESS", 
+                        "/client/admin/all-tickets/PENDING", 
+                        "/client/admin/all-tickets/PENDING_USER", 
+                        "/client/admin/all-tickets/CLOSED"],
+        "content": ["ABERTO", 
+                    "EM ATENDIMENTO", 
+                    "PENDENTE", 
+                    "PENDENTE USUÁRIO", 
+                    "RESOLVIDO"]
+    },
+
+    "menu": {
+        "elementHref": [".activeItem > .pro-inner-item > .pro-item-content",
+                        ":nth-child(2) > .pro-inner-item > .pro-item-content",
+                        ":nth-child(3) > .pro-inner-item > .pro-item-content",
+                        ":nth-child(4) > .pro-inner-item > .pro-item-content",
+                        ":nth-child(5) > .pro-inner-item > .pro-item-content",
+                        ".react-slidedown > :nth-child(1) > ul > .pro-menu-item > .pro-inner-item > .pro-item-content",
+                        ":nth-child(7) > .pro-inner-item > .pro-item-content",
+                        ":nth-child(8) > .pro-inner-item > .pro-item-content"],
+        "content": ["Dashboard",
+                    "Todas solicitaçoes",
+                    "Minhas solicitaçoes",
+                    "Meus ativos",
+                    "Chat",
+                    "Solicitaçoes",
+                    "Base de conhecimento",
+                    "FAQ"]  
+    }
+}
